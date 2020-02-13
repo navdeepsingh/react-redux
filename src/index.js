@@ -1,4 +1,5 @@
-const el = document.createElement('div');
-el.innerHTML = 'Hello From Webpack - Testing again';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-document.body.append(el);
+ReactDOM.render(<App />, document.getElementById('root'))
